@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ quiz_data['title'] }}</title>
+</head>
+<body>
+    <h1>{{ quiz_data['title'] }}</h1>
+    <form method="POST">
+    {% for question in quiz_data['questions'] %}
+        <h3>{{ question['question'] }}</h3>
+        {% for choice in question['choices'] %}
+            <input type="radio" name="{{ loop.index0 }}" value="{{ choice }}"> {{ choice }}<br>
+        {% endfor %}
+        <br>
+    {% endfor %}
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

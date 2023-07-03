@@ -1,0 +1,20 @@
+{
+  "title": "My Quiz",
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "choices": ["Paris", "London", "Berlin", "Madrid"],
+      "correct_answer": "Paris"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "choices": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Michelangelo"],
+      "correct_answer": "Leonardo da Vinci"
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "choices": ["Jupiter", "Saturn", "Neptune", "Mars"],
+      "correct_answer": "Jupiter"
+    }
+  ]
+}
